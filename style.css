@@ -1,0 +1,176 @@
+
+*{
+
+    padding: 50;
+    margin: 0;
+    box-sizing: border-box;
+}
+        
+html {
+    font-size: 10px; 
+}
+       
+body {
+    font-size: 16px; 
+    line-height: 1.6;
+    font-family: "Cambria", sans-serif;
+    color: black;
+    background-color: #96969699;
+}
+        
+li {
+    list-style: none;
+}
+        
+li a {
+    text-decoration: none;
+}
+        
+.container {
+    max-width: 1024px;
+    width: 100%;
+    padding: 0 22px; 
+    margin: 0 auto;
+}
+
+header {
+    background-color: #949494;
+}
+
+nav ul {
+    padding: 50px 0; 
+    display: flex;
+    gap: 20px; 
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    color: #444444;
+    font-size: 18px; 
+    font-weight: 600;
+}
+
+.active {
+    color: #000000;
+}
+/* home page */
+.banner_wrapper {
+    padding: 80px;
+    display: flex;
+    gap: 150px;
+    
+}
+
+.banner_wrapper img {
+    padding: 5px; 
+    background-color: black;
+    border-radius: 10px; 
+}
+
+.banner_content {
+    align-content: center;
+}
+
+.banner_content h1 {
+    font-size: 27px; 
+}
+
+.banner_content p {
+    padding-top: 40px;
+    font-size: 18px;
+    text-align: justify;
+}
+.banner_wrapper img{
+   
+   height: 300px;
+   width: 300px;
+}
+
+/* about page */
+.about_wrapper {
+    display: flex;
+    gap: 150px;
+    padding-top: 50px;
+}
+
+.about .about_image 
+{
+   padding-left: 100px;
+   
+}
+.about_image h3 {
+    padding-top: 20px;
+    
+    text-align: center;
+    font-size: 17px;
+}
+
+.about_content {
+    padding-top: 10px;
+    line-height: 3px;
+}
+ .skill{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.about .skill img {   
+    height: 80px;
+    width: 80px;
+    padding: 0px; 
+    background-color: black;
+    
+}
+.about_content i {
+    padding-top: 40px;
+    
+}
+
+.about_image img{
+   margin: 10px;
+    height: 200px;
+    width: 200px;
+   
+    
+}
+.about_image img{
+    padding: 3px; 
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+
+
+/* education */
+.education{
+    padding: 9px;
+    text-align: center;
+}
+.education h2{
+    padding: 9px;
+    font-size: 30px;
+}
+.education h3{
+    padding: 10px;
+    font-size: 20px;
+}
+.education p{
+    padding: 3px;
+    font-size: 20px;
+}
+
+/* contact page */
+.contact{
+    padding: 100px;
+    text-align: center;
+   
+  
+}
+.contact h2{
+    padding-top: 50px;
+}
+.contact i{
+    padding-top: 40px;
+    align-content: center;
+}
